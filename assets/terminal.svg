@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="440" viewBox="0 0 980 440">
+  <rect width="980" height="440" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <rect width="980" height="40" rx="14" fill="#161b22"/>
+  <rect y="26" width="980" height="14" fill="#161b22"/>
+  <circle cx="24" cy="20" r="7" fill="#ff5f56"/>
+  <circle cx="46" cy="20" r="7" fill="#ffbd2e"/>
+  <circle cx="68" cy="20" r="7" fill="#27c93f"/>
+  <text x="490" y="25" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#8b949e">lecture-pdf</text>
+  <g xml:space="preserve" font-family="Cascadia Code, Consolas, Menlo, monospace" font-size="15">
+    <text x="22" y="74"><tspan fill="#7ee787">$</tspan><tspan fill="#e6edf3"> lecture-pdf "https://www.youtube.com/watch?v=e7Is5-jBNDo" --drop-pages 1,2,23,24,40</tspan></text>
+    <text x="22" y="104" fill="#8b949e">title: Permutation and Combination in 1 Shot (Part 2) ...  (3:24:21)</text>
+    <text x="22" y="128"><tspan fill="#d29922">possible notes/PDF links found:</tspan><tspan fill="#8b949e"> "Visit MANZIL Batch in ... App"</tspan></text>
+    <text x="22" y="152"><tspan fill="#8b949e">video: </tspan><tspan fill="#e6edf3">1280x720, 3:24:20</tspan><tspan fill="#8b949e">, hw decoder: </tspan><tspan fill="#79c0ff">av1_cuvid</tspan></text>
+    <text x="22" y="176"><tspan fill="#8b949e">frames: </tspan><tspan fill="#e6edf3">(12261, 180, 320)</tspan></text>
+    <text x="22" y="200"><tspan fill="#8b949e">composites: </tspan><tspan fill="#e6edf3">12261 frames in 55s</tspan></text>
+    <text x="22" y="224"><tspan fill="#8b949e">segments: </tspan><tspan fill="#e6edf3">45</tspan><tspan fill="#8b949e">  →  dedupe / subset / empty filtering</tspan></text>
+    <text x="22" y="248"><tspan fill="#8b949e">  page  13 @ 1:25:14  </tspan><tspan fill="#d2a8ff">19 frames, 0.0% never visible</tspan></text>
+    <text x="22" y="272"><tspan fill="#8b949e">  page  30 @ 2:45:42  </tspan><tspan fill="#d2a8ff">19 frames, 0.0% never visible</tspan></text>
+    <text x="22" y="296" fill="#8b949e">  ...</text>
+    <text x="22" y="326"><tspan fill="#7ee787" font-weight="700">done: </tspan><tspan fill="#e6edf3">35 pages, total runtime 406s</tspan></text>
+    <text x="22" y="350"><tspan fill="#8b949e">  pdf:        </tspan><tspan fill="#79c0ff">lecture_notes/e7Is5-jBNDo/notes.pdf</tspan></text>
+    <text x="22" y="374"><tspan fill="#8b949e">  timestamps: </tspan><tspan fill="#79c0ff">lecture_notes/e7Is5-jBNDo/timestamps.txt</tspan></text>
+    <text x="22" y="398"><tspan fill="#8b949e">  contact:    </tspan><tspan fill="#79c0ff">lecture_notes/e7Is5-jBNDo/contact_sheet.jpg</tspan></text>
+  </g>
+</svg>

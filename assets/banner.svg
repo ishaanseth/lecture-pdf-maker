@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e1b4b"/>
+      <stop offset="0.5" stop-color="#312e81"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fde68a"/>
+      <stop offset="0.5" stop-color="#f9a8d4"/>
+      <stop offset="1" stop-color="#a5f3fc"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e0e7ff"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1280" height="340" rx="24" fill="url(#bg)"/>
+  <!-- chalk doodles -->
+  <g stroke="#ffffff" stroke-opacity="0.08" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M40 60 q40 -30 80 0 t80 0"/>
+    <path d="M60 290 l60 -40 l40 30 l70 -60"/>
+    <circle cx="1210" cy="70" r="34"/>
+    <path d="M1120 300 h90 M1165 255 v90"/>
+    <text x="560" y="320" font-family="Segoe Print, Comic Sans MS, cursive" font-size="34" fill="#fff" fill-opacity="0.07" stroke="none">nCr = n! / r!(n-r)!</text>
+  </g>
+  <!-- video tile -->
+  <g transform="translate(70,88)">
+    <rect width="250" height="150" rx="16" fill="#0b1020" stroke="#818cf8" stroke-width="3"/>
+    <path d="M30 40 q40 -20 70 0 M30 70 h110 M30 95 h80 M150 95 l30 -20 l30 20" stroke="#86efac" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <circle cx="205" cy="45" r="22" fill="#ef4444"/>
+    <path d="M198 34 l18 11 l-18 11z" fill="#fff"/>
+    <rect x="16" y="128" width="218" height="6" rx="3" fill="#334155"/>
+    <rect x="16" y="128" width="140" height="6" rx="3" fill="#ef4444"/>
+  </g>
+  <!-- arrow -->
+  <g filter="url(#glow)">
+    <path d="M345 163 h70" stroke="#fbbf24" stroke-width="8" stroke-linecap="round"/>
+    <path d="M410 145 l28 18 l-28 18z" fill="#fbbf24"/>
+  </g>
+  <!-- pdf stack -->
+  <g transform="translate(470,70)">
+    <rect x="24" y="0" width="150" height="190" rx="12" fill="#c7d2fe" opacity="0.5"/>
+    <rect x="12" y="10" width="150" height="190" rx="12" fill="#e0e7ff" opacity="0.8"/>
+    <rect x="0" y="20" width="150" height="190" rx="12" fill="url(#paper)"/>
+    <path d="M20 60 h90 M20 85 h110 M20 110 h70 M20 135 h100 M20 160 h60" stroke="#6366f1" stroke-width="6" stroke-linecap="round"/>
+    <rect x="88" y="168" width="52" height="28" rx="7" fill="#ef4444"/>
+    <text x="114" y="188" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-weight="700" font-size="15" fill="#fff">PDF</text>
+  </g>
+  <!-- text -->
+  <text x="700" y="150" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-weight="800" font-size="78" fill="url(#title)">lecture-pdf</text>
+  <text x="704" y="198" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="27" fill="#e0e7ff">Hours of lecture video → one clean</text>
+  <text x="704" y="234" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="27" fill="#e0e7ff">notes PDF. Instructor not included.</text>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="600">
+    <rect x="704" y="262" width="138" height="34" rx="17" fill="#22c55e" fill-opacity="0.2" stroke="#4ade80"/>
+    <text x="773" y="285" text-anchor="middle" fill="#bbf7d0">one command</text>
+    <rect x="854" y="262" width="150" height="34" rx="17" fill="#f472b6" fill-opacity="0.2" stroke="#f472b6"/>
+    <text x="929" y="285" text-anchor="middle" fill="#fbcfe8">person removal</text>
+    <rect x="1016" y="262" width="150" height="34" rx="17" fill="#38bdf8" fill-opacity="0.2" stroke="#38bdf8"/>
+    <text x="1091" y="285" text-anchor="middle" fill="#bae6fd">runs on a laptop</text>
+  </g>
+</svg>

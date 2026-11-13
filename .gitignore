@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.egg-info/
+build/
+dist/
+lecture_notes/
+models/
+*.npy
+*.mp4
+*.webm
+*.mkv

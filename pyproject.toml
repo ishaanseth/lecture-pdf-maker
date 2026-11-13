@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lecture-pdf"
+version = "1.0.0"
+description = "Turn blackboard / slide lecture videos into clean notes PDFs - one page per board, instructor removed."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Ishaan Seth" }]
+requires-python = ">=3.9"
+keywords = ["lecture", "notes", "pdf", "youtube", "whiteboard", "slides", "opencv", "mediapipe", "education"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Education",
+  "Topic :: Multimedia :: Video",
+  "Environment :: Console",
+]
+dependencies = [
+  "yt-dlp",
+  "opencv-python",
+  "numpy",
+  "img2pdf",
+  "pillow",
+  "scikit-image",
+  "mediapipe",
+]
+
+[project.urls]
+Homepage = "https://github.com/ishaanseth/lecture-pdf-maker"
+Issues = "https://github.com/ishaanseth/lecture-pdf-maker/issues"
+
+[project.scripts]
+lecture-pdf = "lecture_pdf:main"
+
+[tool.setuptools]
+py-modules = ["lecture_pdf"]

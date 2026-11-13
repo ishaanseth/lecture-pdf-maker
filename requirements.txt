@@ -1,0 +1,7 @@
+yt-dlp
+opencv-python
+numpy
+img2pdf
+pillow
+scikit-image
+mediapipe
