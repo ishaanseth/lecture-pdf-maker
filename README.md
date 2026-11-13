@@ -161,15 +161,15 @@ Steps 2 and 3 reuse the cached download and frames.
 
 ```mermaid
 flowchart LR
-    A([🔗 URL / file]):::src --> B[📥 yt-dlp<br/>≤720p, video only]:::io
-    B --> C[🎞️ Decode 1 fps<br/>320px gray<br/><i>GPU if available</i>]:::io
-    C --> D[🧮 Temporal median<br/>7 frames × 3 s]:::cv
-    D --> E[✍️ Ink mask<br/>adaptive threshold]:::cv
-    E --> F{✂️ Page cut?<br/>ink lost / new / dropped}:::logic
-    F --> G[🧹 Dedupe<br/>SSIM + containment]:::logic
-    G --> H[🧍 MediaPipe<br/>person mask @ full res]:::ml
-    H --> I[🧩 Per-pixel latest<br/>unoccluded composite]:::ml
-    I --> J([📄 notes.pdf<br/>🕒 timestamps]):::out
+    A(["🔗 URL or file"]):::src --> B["📥 yt-dlp<br/>720p, video only"]:::io
+    B --> C["🎞️ Decode 1 fps<br/>320px gray, GPU if available"]:::io
+    C --> D["🧮 Temporal median<br/>7 frames x 3 s"]:::cv
+    D --> E["✍️ Ink mask<br/>adaptive threshold"]:::cv
+    E --> F{"✂️ Page cut?<br/>ink lost, new or dropped"}:::logic
+    F --> G["🧹 Dedupe<br/>SSIM + containment"]:::logic
+    G --> H["🧍 MediaPipe<br/>person mask, full res"]:::ml
+    H --> I["🧩 Per-pixel latest<br/>unoccluded composite"]:::ml
+    I --> J(["📄 notes.pdf + 🕒 timestamps"]):::out
 
     classDef src fill:#fde68a,stroke:#d97706,color:#111
     classDef io fill:#bfdbfe,stroke:#2563eb,color:#111
